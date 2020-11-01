@@ -1,0 +1,18 @@
+.main {
+  margin: 20px;
+}
+
+.main .title {
+  margin-bottom: 10px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #888;
+  color: #555;
+}
+
+.main li {
+  list-style: decimal;
+  margin-left: 22px;
+  color: #b5afaf;
+  line-height: 26px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
