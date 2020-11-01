@@ -1,0 +1,20 @@
+.main {
+  margin: 10px;
+}
+
+.main li {
+  list-style: none;
+  float: left;
+  height: 100px;
+  width: 33%;
+  margin-bottom: 10px;
+}
+
+.main .blue1 {
+  background-color: #0ac4ff;
+}
+
+.main .pink1 {
+  background-color: #fd6eb6;
+}
+/*# sourceMappingURL=stylesheet.css.map */
