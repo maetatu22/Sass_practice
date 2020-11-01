@@ -1,3 +1,5 @@
+@import "variables";
+
 @mixin card($color){
   padding: 40px 28px;
 	margin: 16px 8px;
@@ -57,11 +59,11 @@ header {
 }
 
 .html {
-  @include card(#1bd7cf);
+  @include card($html);
 }
 
 .javascript{
-  @include card(#ffe400);
+  @include card($javascript);
 }
 
 footer {
