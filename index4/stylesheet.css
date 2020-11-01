@@ -6,6 +6,7 @@
 .main .title {
   font-size: 32px;
   margin-bottom: 5px;
+  color: #7579a3;
 }
 
 .main .description {
@@ -15,6 +16,7 @@
 }
 
 .main .button {
+  background-color: #7579a3;
   display: inline-block;
   color: #ffffff;
   padding: 8px 16px;

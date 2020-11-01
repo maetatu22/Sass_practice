@@ -1,5 +1,4 @@
-
-
+$wanko-color: #7579a3;
 
 .main {
   margin: 20px;
@@ -8,9 +7,7 @@
   .title {
     font-size: 32px;
     margin-bottom: 5px;
-
-    
-    
+    color: $wanko-color;
   }
 
   .description {
@@ -20,9 +17,7 @@
   }
   
   .button {
-
-    
-    
+    background-color: $wanko-color;
     display: inline-block;
     color: #ffffff;
     padding: 8px 16px;
