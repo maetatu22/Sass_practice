@@ -1,9 +1,9 @@
-@mixin card{
+@mixin card($color){
   padding: 40px 28px;
 	margin: 16px 8px;
 	display: inline-block;
 	border-radius: 3px;
-	background-color: #ffffff;
+	background-color: $color;
 	img {
 		margin: 16px auto 20px;
 		display: block;
@@ -42,11 +42,11 @@ header {
 }
 
 .html {
-  @include card;
+  @include card(#1bd7cf);
 }
 
 .javascript{
-  @include card;
+  @include card(#ffe400);
 }
 
 footer {
