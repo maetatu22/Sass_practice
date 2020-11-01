@@ -1,11 +1,11 @@
  
-@mixin circle {
+@mixin circle($color) {
   display: inline-block;
   border-radius: 50%;
   margin-left: 10px;
   text-align: center;
   
-  background-color: #888888;
+  background-color: $color;
 }
 
 .main {
@@ -14,21 +14,21 @@
   
   .small {
     
-    @include circle;
+    @include circle(#20efae);
     width: 34px;
     height: 34px;
   }
   
   .medium {
    
-    @include circle;
+    @include circle(#61cbff);
     width: 62px;
     height: 62px;
   }
   
   .large {
     
-    @include circle;
+    @include circle(#a070f7);
     width: 90px;
     height: 90px;
   }
