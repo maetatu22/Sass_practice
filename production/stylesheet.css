@@ -42,6 +42,23 @@ header {
   display: block;
 }
 
+.html a {
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border-radius: 26px;
+  display: inline-block;
+  color: #1bd7cf;
+}
+
+.html a:hover {
+  color: #ffffff;
+  background-color: #15aaa3;
+}
+
+.html h4 {
+  color: #107c78;
+}
+
 .javascript {
   padding: 40px 28px;
   margin: 16px 8px;
@@ -53,6 +70,23 @@ header {
 .javascript img {
   margin: 16px auto 20px;
   display: block;
+}
+
+.javascript a {
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border-radius: 26px;
+  display: inline-block;
+  color: #ffe400;
+}
+
+.javascript a:hover {
+  color: #ffffff;
+  background-color: #ccb600;
+}
+
+.javascript h4 {
+  color: #998900;
 }
 
 footer {
