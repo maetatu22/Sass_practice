@@ -66,6 +66,10 @@ header {
   @include card($javascript);
 }
 
+.ruby{
+  @include card($ruby);
+}
+
 footer {
 	margin: 100px 0 32px;
 	color: #2b546a;
