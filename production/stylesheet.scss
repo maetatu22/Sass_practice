@@ -1,3 +1,15 @@
+@mixin card{
+  padding: 40px 28px;
+	margin: 16px 8px;
+	display: inline-block;
+	border-radius: 3px;
+	background-color: #ffffff;
+	img {
+		margin: 16px auto 20px;
+		display: block;
+	}
+}
+
 body {   
   min-width: 460px;
 	text-align: center;
@@ -27,6 +39,14 @@ header {
       color: #2b546a;
     }
   }
+}
+
+.html {
+  @include card;
+}
+
+.javascript{
+  @include card;
 }
 
 footer {

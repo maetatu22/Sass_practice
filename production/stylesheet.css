@@ -29,6 +29,32 @@ header {
   color: #2b546a;
 }
 
+.html {
+  padding: 40px 28px;
+  margin: 16px 8px;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.html img {
+  margin: 16px auto 20px;
+  display: block;
+}
+
+.javascript {
+  padding: 40px 28px;
+  margin: 16px 8px;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.javascript img {
+  margin: 16px auto 20px;
+  display: block;
+}
+
 footer {
   margin: 100px 0 32px;
   color: #2b546a;
