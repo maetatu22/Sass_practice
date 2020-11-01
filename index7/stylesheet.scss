@@ -17,12 +17,12 @@ $pink: #fd6eb6;
   }
   
   .blue2 {
-    
+    background-color: darken($blue, 10%);
     
   }
   
   .blue3 {
-    
+    background-color: darken($blue, 20%);
     
   }
   
@@ -31,12 +31,12 @@ $pink: #fd6eb6;
   }
   
   .pink2 {
-    
+    background-color: lighten($pink,10%);
     
   }
   
   .pink3 {
-    
+    background-color: lighten($pink, 20%);
     
   }
 }
