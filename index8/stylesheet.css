@@ -21,6 +21,14 @@
           box-shadow: 1px 2px 6px rgba(106, 137, 152, 0.3);
 }
 
+.main .twitter {
+  background-color: #1dcaff;
+}
+
+.main .facebook {
+  background-color: #405f9e;
+}
+
 .main .fa {
   line-height: 64px;
 }
