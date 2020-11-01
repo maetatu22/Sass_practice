@@ -1,0 +1,20 @@
+.main {
+  margin: 20px 10px;
+  color: #ffffff;
+}
+
+.main .small {
+  width: 34px;
+  height: 34px;
+}
+
+.main .medium {
+  width: 62px;
+  height: 62px;
+}
+
+.main .large {
+  width: 90px;
+  height: 90px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
